@@ -1,0 +1,2 @@
+ace.config.setModuleUrl('ace/mode/builder', require('file-loader!./src-noconflict/mode-builder.js'))
+ace.config.setModuleUrl('ace/theme/builder', require('file-loader!./src-noconflict/theme-builder.js'))
